@@ -17,7 +17,7 @@ class NanoSvg {
 
         await nanofy(
             pattern,
-            path.join(Mix.config.publicPath, destination),
+            destination,
             options
         )
     }
