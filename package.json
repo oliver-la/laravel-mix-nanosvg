@@ -1,0 +1,14 @@
+{
+  "name": "laravel-mix-nanosvg",
+  "version": "1.0.0",
+  "description": "Laravel Mix wrapper for vecta.io/nano",
+  "main": "index.js",
+  "author": "Oliver Lazovic",
+  "license": "MIT",
+  "devDependencies": {
+    "laravel-mix": "^6.0.43"
+  },
+  "dependencies": {
+    "multimatch": "^4.0.0"
+  }
+}
