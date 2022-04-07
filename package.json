@@ -9,6 +9,7 @@
     "laravel-mix": "^6.0.43"
   },
   "dependencies": {
-    "multimatch": "^4.0.0"
+    "multimatch": "^4.0.0",
+    "nanosvg": "^1.6.2"
   }
 }
