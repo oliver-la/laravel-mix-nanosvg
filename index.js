@@ -12,7 +12,7 @@ class NanoSvg {
     }
 
     register(pattern, destination = '', options = {}) {
-        this.patterns = [].concat(patterns);
+        this.patterns = [].concat(pattern);
         const nanofy = require("nanosvg");
 
         await nanofy(
