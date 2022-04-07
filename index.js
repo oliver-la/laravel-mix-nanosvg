@@ -11,7 +11,7 @@ class NanoSvg {
         return ['nanosvg'];
     }
 
-    register(pattern, destination = '', options = {}) {
+    async register(pattern, destination = '', options = {}) {
         this.patterns = [].concat(pattern);
         const nanofy = require("nanosvg");
 
